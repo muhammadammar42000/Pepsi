@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <title>Pepsi Cola</title>
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./images/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">WHAT's NEW</a></li>
+                <li><a href="#">NEWSLETTER</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br> <span>I Like</span> </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit repudiandae corrupti nisi numquam
+                    ex vel animi saepe dolorum! Quidem tempore suscipit quas totam. Minus, aspernatur quas saepe quos
+                    reprehenderit facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque enim nobis
+                </p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./images/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/pepsi001.png" onclick="imgSlider('./images/pepsi001.png'); changeBackgroundColor('#0062be')"></li>
+            <li><img src="./images/pepsi002.png" onclick="imgSlider('./images/pepsi002.png'); changeBackgroundColor('#e60c2c')"></li>
+            <li><img src="./images/pepsi003.png" onclick="imgSlider('./images/pepsi003.png'); changeBackgroundColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
